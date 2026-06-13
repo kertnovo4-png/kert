@@ -1,29 +1,5 @@
 
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/index.html b/index.html
-new file mode 100644
-index 0000000000000000000000000000000000000000..4918fb59deba06cf73e2c1fc05d68f9fa4f1061b
---- /dev/null
-+++ b/index.html
-@@ -0,0 +1,18 @@
-+<!doctype html>
-+<html lang="en">
-+  <head>
-+    <meta charset="UTF-8" />
-+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-+    <meta
-+      name="description"
-+      content="Mens et Manus is a university productivity dashboard for courses, notes, focus time, streaks, social study, and integrations."
-+    />
-+    <title>Mens et Manus</title>
-+    <link rel="stylesheet" href="/src/styles.css" />
-+  </head>
-+  <body>
-+    <noscript>Mens et Manus needs JavaScript enabled to run.</noscript>
-+    <div id="root"></div>
-+    <script type="module" src="/src/app.js"></script>
-+  </body>
-+</html>
- 
-EOF
-)
+index.html
+script.js
+style.css
+README.md
