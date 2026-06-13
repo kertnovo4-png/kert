@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "build": "node --check src/app.js",
+    "preview": "python3 -m http.server 4173",
+    "test": "node tests/smoke.mjs",
+    "start": "npm run dev",
+    "package": "node scripts/build-app.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
